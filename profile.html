@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIN_DD/Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar">
+
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="Images/logo.png"></a>
+            <div class="search-box">
+                <img src="Images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="#" class="active-link"><img src="Images/home.png"><span>Home</span></a></li>
+                <li><a href="#"><img src="Images/network.png"><span>My Networks</span></a></li>
+                <li><a href="#"><img src="Images/jobs.png"><span>Jobs</span></a></li>
+                <li><a href="#"><img src="Images/message.png"><span>Messaging</span></a></li>
+                <li><a href="#"><img src="Images/notification.png"><span>Notifications</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="Images/user-1.png" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+        </div>
+
+        <!-- Profile DropDown Menu -->
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="Images/user-1.png">
+                    <div>
+                        <h3>Rahul Bumane</h3>
+                        <a href="profile.html">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="" class="profile-menu-link">
+                    <img src="Images/feedback.png">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="" class="profile-menu-link">
+                    <img src="Images/setting.png">
+                    <p>Settings & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="" class="profile-menu-link">
+                    <img src="Images/help.png">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="" class="profile-menu-link">
+                    <img src="Images/display.png">
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </a>
+                <a href="" class="profile-menu-link">
+                    <img src="Images/logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- MAIN CONTAIRNER -->
+    <div class="container">
+
+        <div class="profile-main">
+            <div class="profile-container">
+                <img src="Images/cover-pic.png" width="100%">
+                <div class="profile-container-inner">
+                    <img src="Images/user-1.png" class="profile-pic">
+                    <h1>Rahul Bumane</h1>
+                    <b>Web Developer at Microsoft | Former developer at DataStack and Intern at Oracle</b>
+                    <p>San Francisco, United States &middot; <a href="#">Contact Info</a></p>
+
+                    <div class="mutual-connection">
+                        <img src="Images/user-2.png">
+                        <span>1 mutual connection</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROFILE-SIDEBAR -->
+        <div class="profile-sidebar"></div>
+
+    </div>
+
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

@@ -841,10 +841,10 @@ a{
     justify-content: flex-start;
 }
 
+/* MAKING RESPONSIVE DESIGN */
 #show-more-link{
     display: none;
 }
-/* MAKING RESPONSIVE DESIGN */
 @media only screen and (max-width: 600px){
     .search-box{
         background: transparent;
